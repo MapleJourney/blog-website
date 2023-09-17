@@ -44,5 +44,6 @@ export default defineUserConfig({
 		]
 	}),
 	port: 5467,
+	dest:'dist',
 	pagePatterns: ['**/*.md', '!**/README.md', '!.vuepress', '!node_modules']
 })
