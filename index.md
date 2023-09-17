@@ -11,6 +11,6 @@ bannerBrand:
   buttons:
     - { text: 开始坐牢, link: './docs' }
   socialLinks:
-    - { icon: 'LogoGithub', link: 'https://github.com/aioxChina' }
+    - { icon: 'LogoGithub', link: 'https://github.com/MapleJourney' }
 
 ---
