@@ -13,24 +13,12 @@ export default defineUserConfig({
 		style: '@vuepress-reco/style-default',
 
 		logo: '/logo.png',
-		author: 'aioxChina',
-		docsRepo: 'https://github.com/vuepress-reco/vuepress-theme-reco-next',
+		author: 'Maple Journey',
+		docsRepo: 'https://github.com/MapleJourney/blog-website',
 		docsBranch: 'main',
-		docsDir: 'example',
 		lastUpdatedText: '',
 		// series 为原 sidebar
-		series: {
-			'/docs/theme-reco/': [
-				{
-					text: 'module one',
-					children: ['home', 'theme']
-				},
-				{
-					text: 'module two',
-					children: ['api', 'plugin']
-				}
-			]
-		},
+		// series: {},
 		navbar: [
 			{ text: '首页', link: '/' },
 			{
