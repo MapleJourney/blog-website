@@ -7,7 +7,8 @@ modules:
 bannerBrand:
   bgImage: '/bg.svg'
   title: Maple Journey
-  description: 古之立大事者，不惟有超世之才，亦必有坚忍不拔之志
+  description: 人只有在努力的时候才会感到累
+  tagline: 人生最大的报酬可以说是从求知行动中获得的
   buttons:
     - { text: 开始坐牢, link: './docs' }
   socialLinks:
