@@ -13,5 +13,6 @@ bannerBrand:
     - { text: 开始坐牢, link: './docs' }
   socialLinks:
     - { icon: 'LogoGithub', link: 'https://github.com/MapleJourney' }
-
+footer:
+  startYear: 2023
 ---

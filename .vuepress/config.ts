@@ -2,6 +2,7 @@ import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
 import series from './series'
+import navbar from './navbar'
 export default defineUserConfig({
 	title: 'Maple Journey',
 	description: 'notes',
@@ -11,7 +12,6 @@ export default defineUserConfig({
 		// autoSetSeries: true,
 		// home: '/',
 		style: '@vuepress-reco/style-default',
-
 		logo: '/logo.png',
 		author: 'Maple Journey',
 		docsRepo: 'https://github.com/MapleJourney/blog-website',
@@ -19,22 +19,7 @@ export default defineUserConfig({
 		lastUpdatedText: '',
 		// series 为原 sidebar
 		series,
-		navbar: [
-			{ text: '首页', link: '/' },
-			{
-				text: '参考',
-				icon: 'Document',
-				children: [
-					{ text: 'Vuepress配置', link: 'https://v2.vuepress.vuejs.org/zh/reference/config.html' },
-					{ text: 'theme-reco配置', link: 'https://vuepress-theme-reco.recoluan.com/docs/theme/frontmatter-home.html' }
-				]
-			},
-			{
-				text: '关于',
-				icon: 'UserMultiple',
-				link: './docs/about'
-			}
-		]
+		navbar
 	}),
 	port: 5467,
 	dest: 'dist',
