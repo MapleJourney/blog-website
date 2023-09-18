@@ -1,14 +1,14 @@
 import { defineUserConfig } from 'vuepress'
 import type { DefaultThemeOptions } from 'vuepress'
 import recoTheme from 'vuepress-theme-reco'
-
+import series from './series'
 export default defineUserConfig({
 	title: 'Maple Journey',
 	description: 'notes',
 	head: [['link', { rel: 'icon', href: '/favicon.ico' }]],
 	theme: recoTheme({
 		// 自动设置分类
-		autoSetSeries: true,
+		// autoSetSeries: true,
 		// home: '/',
 		style: '@vuepress-reco/style-default',
 
@@ -18,7 +18,7 @@ export default defineUserConfig({
 		docsBranch: 'main',
 		lastUpdatedText: '',
 		// series 为原 sidebar
-		// series: {},
+		series,
 		navbar: [
 			{ text: '首页', link: '/' },
 			{
