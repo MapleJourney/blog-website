@@ -6,7 +6,7 @@ import navbar from './navbar'
 export default defineUserConfig({
 	title: 'Maple Journey',
 	description: 'notes',
-	head: [['link', { rel: 'icon', href: './favicon.ico' }]],
+	head: [['link', { rel: 'icon', href: '/blog-website/favicon.ico' }]],
 	theme: recoTheme({
 		// 自动设置分类
 		// autoSetSeries: true,
