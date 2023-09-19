@@ -3,7 +3,7 @@ import navbar from './navbar'
 
 export const recoConfig = {
 	// 自动设置分类
-	// autoSetSeries: true,
+	autoSetSeries: true,
 	// home: '/',
 	style: '@vuepress-reco/style-default',
 	logo: '/logo.png',
@@ -12,6 +12,6 @@ export const recoConfig = {
 	docsBranch: 'main',
 	lastUpdatedText: '',
 	// series 为原 sidebar
-	series,
+	// series,
 	navbar
 }
