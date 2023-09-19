@@ -1,5 +1,5 @@
 const createNavbar = () => [
-	{ text: '首页', link: '/' },
+	{ text: '首页', link: '/', icon: 'Home' },
 	{
 		text: '参考',
 		icon: 'Document',
