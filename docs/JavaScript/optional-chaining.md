@@ -1,8 +1,8 @@
+# 可选链操作符
+
 为了防止发生`null`或者`undefined`可以使用`.?`来防止发生报错
 
 例如:
-
-
 
 **1. 访问对象属性：**
 
@@ -24,8 +24,6 @@ console.log(user?.address?.city); // 输出: "New York"
 console.log(user?.age?.toString()); // 输出: undefined
 
 ```
-
-
 
 **2. 调用函数或方法：**
 
