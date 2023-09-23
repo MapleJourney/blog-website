@@ -12,6 +12,6 @@ export const recoConfig = {
 	docsBranch: 'main',
 	lastUpdatedText: '',
 	// series 为原 sidebar
-	// series,
+	series,
 	navbar
 }

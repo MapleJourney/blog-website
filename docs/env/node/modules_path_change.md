@@ -1,6 +1,6 @@
 # 修改默认包缓存路径
 
-http://t.csdn.cn/UVO0T
+[参考链接](http://t.csdn.cn/UVO0T)
 
 主要是用来解决，Error: EPERM: operation not permitted, rmdir '*'的问题
 
