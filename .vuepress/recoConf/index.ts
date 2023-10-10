@@ -8,7 +8,7 @@ export const recoConfig = {
 	style: '@vuepress-reco/style-default',
 	logo: '/logo.png',
 	author: 'Maple Journey',
-	docsRepo: 'https://github.com/MapleJourney/blog-website',
+	docsRepo: 'https://github.com/MapleJourney/notes',
 	docsBranch: 'main',
 	lastUpdatedText: '',
 	// series 为原 sidebar
