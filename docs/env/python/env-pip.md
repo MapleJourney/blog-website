@@ -25,6 +25,29 @@ pip-sync requirements.txt 就可以比对项目与requirements中的依赖并自
 不建议使用
 
 ### pipenv
-建议先试用venv创建一个环境再用pipenv --python 3.7来创建pipenv管理
-之后可以使用以下命令来根据requirements来安装包
-pyenv install -r requirements
+1. 建议先试用venv创建一个环境，之后进入虚拟环境（执行./venv/bin/activate 脚本即可执行）
+
+2. pipenv --python 3.7来创建pipenv管理（如果上面没有使用venv则会在默认位置创建一个虚拟环境但是有venv虚拟环境就会在
+
+3. pipenv shell 进入虚拟环境 ==如果在命令行开头已经有(venv)这样的表示代表已经进入虚拟环境了可以不用这个命令== 
+
+4. 之后可以使用以下命令来根据requirements来安装包
+
+5. pipenv install -r requirements
+
+6. pipenv update更新（只安装不卸载）
+
+7. pipenv uninstall --all 删除所有
+
+8. pipenv clean 自动清理项目中不需要的包
+
+9. pipenv update [package] 升级项目中的包
+
+
+只能根据命令来修改配置文件然后修改环境中的依赖,无法直接通过配置文件来修改环境,而且安装速度有点慢
+
+当项目部署上去之后只需要在pipfile所在目录执行pipenv install即可
+
+
+### pipx 和 poetry
+https://www.cnblogs.com/aifengqi/p/15394389.html
