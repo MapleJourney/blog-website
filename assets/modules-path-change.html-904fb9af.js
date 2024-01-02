@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-68e26e37","path":"/docs/env/node/modules-path-change.html","title":"修改默认包缓存路径","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1696235823000,"updatedTime":1696235823000,"contributors":[{"name":"bzirs","email":"bzirs@outlook.com","commits":1}]},"filePathRelative":"docs/env/node/modules-path-change.md"}');export{e as data};

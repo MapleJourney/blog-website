@@ -1,0 +1,1 @@
+const t=JSON.parse('{"key":"v-5fd8ccac","path":"/docs/aria2/install-start.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{"createdTime":1701676209000,"updatedTime":1701676209000,"contributors":[{"name":"wodiu188","email":"wolQAQldiu@163.com","commits":1}]},"filePathRelative":"docs/aria2/install-start.md"}');export{t as data};
